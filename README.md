@@ -3,96 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile README</title>
+    <meta name="description" content="Your Name's Profile">
+    <meta name="author" content="Your Name">
+    <title>Your Name's Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
         }
-        header {
-            background-color: #0073e6;
-            color: white;
-            text-align: center;
-            padding: 2rem;
-        }
-        section {
+        .container {
             max-width: 800px;
-            margin: 2rem auto;
-            padding: 2rem;
+            margin: 20px auto;
+            padding: 20px;
             background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h2 {
-            color: #0073e6;
+        h1, h2, h3 {
+            color: #333;
         }
-        ul {
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #1e90ff;
+            margin-right: 15px;
+        }
+        .skills, .projects, .contact {
+            margin-bottom: 30px;
+        }
+        .projects ul {
             list-style: none;
             padding: 0;
         }
-        ul li {
-            background-color: #f4f4f4;
-            margin: 0.5rem 0;
-            padding: 0.5rem;
-            border-left: 4px solid #0073e6;
+        .projects ul li {
+            background: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
         }
         footer {
             text-align: center;
-            padding: 1rem;
-            background-color: #0073e6;
-            color: white;
-        }
-        a {
-            color: #0073e6;
-            text-decoration: none;
+            margin-top: 30px;
+            color: #888;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Welcome to My Profile</h1>
-    <p>Hello! I'm [Your Name], a passionate developer specializing in [Your Specialization].</p>
-</header>
+<div class="container">
+    <div class="header">
+        <img src="your-profile-picture-url.jpg" alt="Your Name">
+        <h1>Your Name</h1>
+        <p>Full-Stack Developer | Open Source Enthusiast | Tech Blogger</p>
+        <div class="social-links">
+            <a href="https://github.com/yourusername">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            <a href="https://twitter.com/yourusername">Twitter</a>
+        </div>
+    </div>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I'm a software developer with a strong focus on creating efficient and scalable solutions. 
-        I enjoy learning new technologies and continuously improving my skill set. 
-        With a background in [Your Field], I've been working on various projects that involve 
-        [Your Areas of Expertise].
-    </p>
-</section>
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm a passionate developer who loves building web applications and contributing to open-source projects. I specialize in front-end development using frameworks like React and Angular, and I have strong back-end knowledge in Node.js and ASP.NET.
+        </p>
+    </div>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Programming Languages: [e.g., JavaScript, Python, C#]</li>
-        <li>Web Development: [e.g., HTML, CSS, React, ASP.NET]</li>
-        <li>Databases: [e.g., MySQL, MongoDB, Azure SQL]</li>
-        <li>Tools: [e.g., Docker, Visual Studio Code, Git]</li>
-    </ul>
-</section>
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Angular, Vue.js</li>
+            <li>Node.js, Express, ASP.NET Core</li>
+            <li>SQL, MongoDB</li>
+            <li>Docker, Kubernetes, CI/CD</li>
+        </ul>
+    </div>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <ul>
-        <li>
-            <strong>Project 1:</strong> [Brief description of project 1] 
-            - <a href="[Project 1 link]" target="_blank">View Project</a>
-        </li>
-        <li>
-            <strong>Project 2:</strong> [Brief description of project 2] 
-            - <a href="[Project 2 link]" target="_blank">View Project</a>
-        </li>
-        <li>
-            <strong>Project 3:</strong> [Brief description of project 3] 
-            - <a href="[Project 3 link]" target="_blank">View Project</a>
-        </li>
-    </ul>
-</section>
+    <div class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Project 1:</strong> <a href="https://github.com/yourusername/project1">GitHub Link</a> - A full-stack web application using React and Node.js.
+            </li>
+            <li>
+                <strong>Project 2:</strong> <a href="https://github.com/yourusername/project2">GitHub Link</a> - An open-source project for automating workflows with Python.
+            </li>
+            <li>
+                <strong>Project 3:</strong> <a href="https://github.com/yourusername/project3">GitHub Link</a> - A personal blog site built with Next.js and Markdown.
+            </li>
+        </ul>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <p>If you want to collaborate or just say hi, feel free to reach out:</p>
+        <ul>
+            <li>Email: your.email@example.com</li>
+            <li>Twitter: <a href="https://twitter.com/yourusername">@yourusername</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Nguyen Huu Dang Nguyen. All rights reserved.</p>
+</footer>
+
 </body>
+</html>
