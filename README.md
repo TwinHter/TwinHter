@@ -4,9 +4,9 @@
   <a href="https://github.com/TwinHter"><img src="https://img.shields.io/github/followers/TwinHter?label=Follow%20Me&style=social" alt="GitHub Follow"></a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=TwinHter&show_icons=true&theme=radical" alt="GitHub Stats">
-</p>
+</p> -->
 
 ## About Me
 
@@ -24,7 +24,7 @@ A scalable medical appointment system built with ASP.NET Core 9, Clean Architect
 ### [TwinLearn](https://github.com/TwinHter/TwinLearn)
 A microservices-based C++ learning platform integrating React, .NET, and Python FastAPI with a dual-engine AI assistant for syntax checking and task solving.
 
-### [Vietnamese Law Retrieval](https://github.com/TwinHter/vietnamese-law-retrieval)
+### [Vietnamese Law Retrieval](https://github.com/TwinHter/vietnamese-laws-retrieval)
 An AI-powered legal retrieval system utilizing RAG (Retrieval-Augmented Generation) and Vector Databases to efficiently query and analyze Vietnamese legal documents.
 ## Connect with Me
 
