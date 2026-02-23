@@ -18,11 +18,14 @@
 
 ## Featured Projects
 
-### [OMAB](https://github.com/TwinHter/OMAB)
-A scalable medical appointment system built with ASP.NET Core 9, Clean Architecture, and CQRS, facilitating role-based scheduling and management.
-
 ### [TwinLearn](https://github.com/TwinHter/TwinLearn)
 A microservices-based C++ learning platform integrating React, .NET, and Python FastAPI with a dual-engine AI assistant for syntax checking and task solving.
+
+### [Video Retrieval System](https://github.com/dpduy123/AIChallenge2025)
+A large-scale video retrieval system developed for the Ho Chi Minh City AI Challenge 2025. The system processes 320+ hours of video content (1,400+ videos, 500K+ keyframes) and leverages multimodal embeddings (OpenCLIP) to enable efficient semantic search.
+
+### [OMAB](https://github.com/TwinHter/OMAB)
+A scalable medical appointment system built with ASP.NET Core 9, Clean Architecture, and CQRS, facilitating role-based scheduling and management.
 
 ### [Vietnamese Law Retrieval](https://github.com/TwinHter/vietnamese-laws-retrieval)
 An AI-powered legal retrieval system utilizing RAG (Retrieval-Augmented Generation) and Vector Databases to efficiently query and analyze Vietnamese legal documents.
